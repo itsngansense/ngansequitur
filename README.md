@@ -47,3 +47,17 @@ run the following command to install sass and use scss in your app:
 ```zsh
 npm install sass
 ```
+
+## local development
+
+run the local development server [http://localhost:3000](http://localhost:3000)
+
+```zsh
+npm run dev
+```
+
+you can start editing the page by modifying `app/page.tsx` and the page will auto-update as you edit the file
+
+## deployment
+
+we'll use [vercel](https://vercel.com) to deploy our project and host our website.
