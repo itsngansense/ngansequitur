@@ -1,4 +1,4 @@
-import styles from './about.module.scss'
+import styles from '@/styles/about.module.scss'
 
 export default function aboutLayout({
   children,
@@ -9,5 +9,5 @@ export default function aboutLayout({
     <main className={styles.main}>
       {children}
     </main>
-  );
+  )
 }
