@@ -1,12 +1,13 @@
 @import "variables";
 
 @mixin anchorStyles() {
-  color: $primary-color;
+  color: $color-primary;
+  font-family: $text-secondary;
     &:active {
       color: $neutral-color;
     }
     &:visited {
-      color: $secondary-color;
+      color: $color-secondary;
     }
     &:hover {
       color: $neutral-color;

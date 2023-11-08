@@ -1,4 +1,48 @@
-$primary-color: blue;
-$secondary-color: green;
+@font-face {
+  font-family: 'Forma DJR Chiaroscuro Banner';
+  src: url('../../public/fonts/FormaDJRChiaroscuroBanner-Black.woff2') format('woff2');
+  src: url('../../public/fonts/FormaDJRChiaroscuroBanner-Black.woff') format('woff');
+  src: url('../../public/fonts/FormaDJRChiaroscuroBanner-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Warbler Text';
+  src: url('../../public/fonts/WarblerText-Regular.woff2') format('woff2');
+  src: url('../../public/fonts/WarblerText-Regular.woff') format('woff');
+  src: url('../../public/fonts/WarblerText-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Warbler Text';
+  src: url('../../public/fonts/WarblerText-Italic.woff2') format('woff2');
+  src: url('../../public/fonts/WarblerText-Italic.woff') format('woff');
+  src: url('../../public/fonts/WarblerText-Italic.ttf') format('truetype');
+  font-style: italic, oblique;
+}
+
+@font-face {
+  font-family: 'Warbler Text';
+  src: url('../../public/fonts/WarblerText-SemiBold.woff2') format('woff2');
+  src: url('../../public/fonts/WarblerText-SemiBold.woff') format('woff');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Warbler Text';
+  src: url('../../public/fonts/WarblerText-Bold.woff2') format('woff2');
+  src: url('../../public/fonts/WarblerText-Bold.woff') format('woff');
+  font-weight: 700, bold;
+}
+
+@font-face {
+  font-family: 'Warbler Text';
+  src: url('../../public/fonts/WarblerText-ExtraBold.woff2') format('woff2');
+  src: url('../../public/fonts/WarblerText-ExtraBold.woff') format('woff');
+  font-weight: 800;
+}
+
+$color-primary: #675EA9;
+$color-secondary: green;
 $neutral-color: red;
-$font-family: Georgia, serif;
+$text-primary: 'Forma DJR Chiaroscuro Banner', sans-serif;
+$text-secondary: 'Warbler Text', Georgia, serif;
