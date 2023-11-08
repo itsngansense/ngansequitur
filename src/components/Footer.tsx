@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import LogoSecondary from '../../public/logo/ncs-logomark-light.svg'
+import LogoSecondary from '../../public/logo/ncs-logomark-secondary.svg'
 
 export default function Footer() {
   return (

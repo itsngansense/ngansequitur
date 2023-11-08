@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import LogoPrimary from '../../public/logo/ncs-logomark-4k.svg'
+import LogoPrimary from '../../public/logo/ncs-logomark-primary.svg'
 
 export default function HeaderNav() {
   return (
