@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Head from 'next/head'
 import '@/styles/global.scss'
 import HeaderNav from '@/components/HeaderNav'
 import Footer from '@/components/Footer'
@@ -19,9 +18,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="stylesheet" href="https://use.typekit.net/nbq2vfj.css" />
-      </Head>
       <body>
         <HeaderNav />
           <main>

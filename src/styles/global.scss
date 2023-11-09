@@ -1,13 +1,58 @@
+@import 'modern-normalize/modern-normalize.css';
 @import "variables";
 @import "mixins";
-@import "typography";
-@import "reset";
 
 html,
 body {
   font-family: $text-primary;
   color: $color-text;
   background: $color-bg-light;
+  margin: 0 auto;
+}
+
+body {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+header, footer, main {
+  width: 100vw;
+  padding: $sp-lg;
+}
+
+header {
+  nav {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    vertical-align: middle;
+    font-size: 1.5rem;
+
+    a.logo {
+      &:hover {
+        border: none;
+      }
+    }
+
+    ul {
+      display: inline-grid;
+      grid-template-columns: repeat(6, auto);
+      list-style-type: none;
+    }
+    li {
+      align-self: center;
+
+      svg.svg-inline--fa {
+        height: 1.125rem;
+        padding-left: $sp-xxs;
+      }
+    }
+  }
+}
+
+footer {
+  background: $color-bg-dark;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -77,24 +122,4 @@ button {
     color: $color-primary-light;
   }
 
-}
-
-nav {
-  ul {
-    list-style-type: none;
-
-    li {
-      display: inline;
-      vertical-align: middle;
-      padding-left: $sp-sm;
-
-      &:first-of-type {
-        padding-left: 0;
-      }
-    }
-  }
-}
-
-footer {
-  background: $color-bg-dark;
 }

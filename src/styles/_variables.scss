@@ -1,3 +1,5 @@
+@import "typography";
+
 /* color palette */
 
 $purple-100: #39305F;
@@ -6,18 +8,21 @@ $purple-60: #6057A3;
 $purple-40: #A39FCA;
 $purple-20: #C3BFDE;
 $purple-10: #E3E1F4;
+
 $pink-100: #98788D;
 $pink-80: #B08CA2;
 $pink-60: #C6A1B7;
 $pink-40: #DFC4D4;
 $pink-20: #ECD6E3;
 $pink-10: #FEF1F8;
-$white: #FFF;
-$black: #000;
 
-$color-primary: $purple-40;
+$white: #FFFFFF;
+$black: #000000;
+
+$color-primary: $purple-60;
 $color-primary-light: $purple-10;
-$color-primary-dark: $purple-60;
+$color-primary-medium: $purple-40;
+$color-primary-dark: $purple-80;
 $color-secondary: $pink-100;
 $color-bg-light: $pink-10;
 $color-bg-dark: $color-primary-dark;
@@ -30,6 +35,7 @@ $text-secondary: 'Warbler Variable Web', Georgia, serif;
 
 /* spacing */
 
+$sp-xxs: .25rem;
 $sp-xs: .5rem;
 $sp-sm: 1rem;
 $sp-md: 1.5rem;

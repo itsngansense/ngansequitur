@@ -8,21 +8,19 @@ export default function HeaderNav() {
   return (
     <header>
       <nav>
+        <Link href="/" className="logo">
+          <Image
+            src={LogoPrimary}
+            alt="Company Logo"
+            priority={true}
+            sizes="100vw"
+            style={{
+              width: '150px',
+              height: 'auto',
+            }}
+          />
+        </Link>
         <ul>
-          <li>
-            <Link href="/">
-              <Image
-                src={LogoPrimary}
-                alt="Company Logo"
-                priority={true}
-                sizes="100vw"
-                style={{
-                  width: '150px',
-                  height: 'auto',
-                }}
-              />
-            </Link>
-          </li>
           <li><Link href="/">home</Link></li>
           <li><Link href="/about">about</Link></li>
           <li><Link href="/design">design</Link></li>

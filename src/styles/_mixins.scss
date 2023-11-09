@@ -1,8 +1,9 @@
 @import "variables";
 
 @mixin anchorStyles() {
-  font-family: $text-primary;
-  font-weight: 700;
+  font-family: $text-secondary;
+  font-style: italic;
+  font-weight: bold;
   color: $color-secondary;
   text-decoration: none;
 
@@ -11,15 +12,20 @@
   }
 
   &:hover {
-    color: $color-primary;
-    cursor: pointer;
+    color: $color-primary-medium;
+    border-bottom: 2px $color-primary solid;
+    font-family: $text-secondary;
+    font-weight: bold;
+    font-style: normal;
+    cursor: crosshair;
   }
 }
 
 @mixin headings() {
-  color: $color-primary;
+  color: $color-primary-dark;
   font-family: $text-primary;
   font-weight: 700;
+  margin: 0;
 }
 
 @mixin desktop() {
