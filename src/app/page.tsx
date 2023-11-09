@@ -12,7 +12,7 @@ export default function Home() {
         <li><Link href="/about">about</Link></li>
         <li><Link href="/design">design</Link></li>
         <li><Link href="/art">art</Link></li>
-        <li><Link href="/shop">shop</Link></li>
+        <li><a href="https://ngansequitur.bigcartel.com">shop</a></li>
         <li><Link href="/contact">contact</Link></li>
       </ul>
       <button className={styles.button}>Go to Page</button>

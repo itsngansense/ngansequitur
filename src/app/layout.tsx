@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Ngansequitur Creative Studio',
-  description: 'Portfolio website for artist and designer, Ngan Hoang',
+  description: 'Ngan Hoang: Visual Artist + UX Designer',
 }
 
 export default function RootLayout({
