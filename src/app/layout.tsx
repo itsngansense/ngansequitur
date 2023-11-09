@@ -19,9 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
+      <Head>
         <link rel="stylesheet" href="https://use.typekit.net/nbq2vfj.css" />
-      </head>
+      </Head>
       <body>
         <HeaderNav />
           <main>

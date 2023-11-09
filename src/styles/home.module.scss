@@ -1,19 +1,5 @@
 @import "mixins";
 
-.button {
-  color:white;
-  border-radius: 20px;
-  outline:none;
-  border: none;
-  background-color:#0070f3 ;
-  height: 35px;
-  &:hover{
-    background-color: red;
-    cursor: pointer;
-  }
-
-}
-
 .grid {
   @include desktop() {
     width: 100%;
@@ -25,3 +11,4 @@
 .logo {
   width: auto;
 }
+

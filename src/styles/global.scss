@@ -1,16 +1,83 @@
 @import "variables";
 @import "mixins";
 @import "typography";
+@import "reset";
 
 html,
 body {
-  padding: 0;
-  margin: 0;
   font-family: $text-primary;
   color: $color-primary;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @include headings;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+h4 {
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+h6 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+p {
+  font-family: $text-secondary;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
 }
 
 a {
   @include anchorStyles;
 }
 
+button {
+  font-family: $text-primary;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: center;
+  text-transform: uppercase;
+  background: $color-primary;
+  color: $color-secondary;
+  cursor: pointer;
+}
+
+nav {
+
+  ul {
+    list-style-type: none;
+
+    li {
+      display: inline;
+      vertical-align: middle;
+      padding-left: $sp-sm;
+
+      &:first-of-type {
+        padding-left: 0;
+      }
+    }
+  }
+}
