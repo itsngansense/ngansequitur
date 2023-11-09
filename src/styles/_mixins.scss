@@ -2,7 +2,10 @@
 
 @mixin anchorStyles() {
   color: $color-primary;
-  font-family: $text-secondary;
+  font-family: $text-primary;
+  font-weight: 900;
+  text-decoration: none;
+
     &:active, &:visited {
       color: $neutral-color;
     }

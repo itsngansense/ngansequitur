@@ -1,0 +1,17 @@
+/* Local Fonts */
+
+@font-face {
+  font-family: 'Warbler Variable Web';
+  src: url('../../public/fonts/WarblerVariableV1-VF.woff2') format('woff2'),
+    url('../../public/fonts/WarblerVariableV1-VF.woff') format('woff'),
+    url('../../public/fonts/WarblerVariableV1-VF.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Warbler Variable Web';
+  src: url('../../public/fonts/WarblerVariableV1-Italic[opsz].woff2') format('woff2'),
+    url('../../public/fonts/WarblerVariableV1-Italic[opsz].woff') format('woff'),
+    url('../../public/fonts/WarblerVariableV1-Italic[opsz].ttf') format('truetype');
+  font-style: italic;
+}

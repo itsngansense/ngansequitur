@@ -1,28 +1,5 @@
-@font-face {
-  font-family: 'Forma DJR Chiaroscuro Banner';
-  src: url('../../public/fonts/FormaDJRChiaroscuroBanner-Black.woff2') format('woff2');
-  src: url('../../public/fonts/FormaDJRChiaroscuroBanner-Black.woff') format('woff');
-  src: url('../../public/fonts/FormaDJRChiaroscuroBanner-Black.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Warbler Variable Web';
-  src: url('../../public/fonts/WarblerVariableV1-VF.woff2') format('woff2');
-  src: url('../../public/fonts/WarblerVariableV1-VF.woff') format('woff');
-  src: url('../../public/fonts/WarblerVariableV1-VF.ttf') format('truetype');
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Warbler Variable Web';
-  src: url('../../public/fonts/WarblerVariableV1-Italic[opsz].woff2') format('woff2');
-  src: url('../../public/fonts/WarblerVariableV1-Italic[opsz].woff') format('woff');
-  src: url('../../public/fonts/WarblerVariableV1-Italic[opsz].ttf') format('truetype');
-  font-style: italic;
-}
-
 $color-primary: #675EA9;
 $color-secondary: green;
 $neutral-color: red;
-$text-primary: 'Forma DJR Chiaroscuro Banner', sans-serif;
+$text-primary: 'forma-djr-text', sans-serif;
 $text-secondary: 'Warbler Variable Web', Georgia, serif;
