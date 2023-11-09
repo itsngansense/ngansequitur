@@ -2,6 +2,9 @@ import type { Metadata } from 'next'
 import '@/styles/global.scss'
 import HeaderNav from '@/components/HeaderNav'
 import Footer from '@/components/Footer'
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+config.autoAddCss = false
 
 export const metadata: Metadata = {
   title: 'Ngansequitur Creative Studio',
@@ -17,7 +20,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <HeaderNav />
-        {children}
+          <main>
+            {children}
+          </main>
         <Footer />
       </body>
     </html>

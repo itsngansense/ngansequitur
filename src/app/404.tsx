@@ -2,8 +2,9 @@ import Link from 'next/link'
 
 export default function PageNotFound() {
   return (
-    <main>
+    <section>
       <p>PAGE NOT FOUND</p>
-    </main>
+      <Link href="/">Back to Home</Link>
+    </section>
   )
 }

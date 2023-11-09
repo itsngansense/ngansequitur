@@ -1,7 +1,7 @@
 export default function Art() {
   return (
-    <main>
+    <section>
       <h1>Art</h1>
-    </main>
+    </section>
   )
 }

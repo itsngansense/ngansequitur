@@ -1,7 +1,7 @@
 export default function Design() {
   return (
-    <main>
+    <section>
       <h1>Design</h1>
-    </main>
+    </section>
   )
 }

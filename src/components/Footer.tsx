@@ -4,7 +4,7 @@ import LogoSecondary from '../../public/logo/ncs-logomark-secondary.svg'
 
 export default function Footer() {
   return (
-    <nav>
+    <footer>
       <Link href="/">
         <Image
           src={LogoSecondary}
@@ -16,6 +16,6 @@ export default function Footer() {
           }}
         />
       </Link>
-    </nav>
+    </footer>
   )
 }
