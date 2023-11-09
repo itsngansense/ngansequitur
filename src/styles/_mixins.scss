@@ -3,15 +3,16 @@
 @mixin anchorStyles() {
   font-family: $text-primary;
   font-weight: 700;
-  color: $color-primary;
+  color: $color-secondary;
   text-decoration: none;
 
   &:active, &:visited {
-    color: $neutral-color;
+    color: $color-secondary;
   }
 
   &:hover {
     color: $color-primary;
+    cursor: pointer;
   }
 }
 
