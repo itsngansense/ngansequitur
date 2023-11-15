@@ -7,19 +7,19 @@ import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 export default function HeaderNav() {
   return (
     <header>
+      <Link href="/" className="logo">
+        <Image
+          src={LogoPrimary}
+          alt="Company Logo"
+          priority={true}
+          sizes="100vw"
+          style={{
+            width: '150px',
+            height: 'auto',
+          }}
+        />
+      </Link>
       <nav>
-        <Link href="/" className="logo">
-          <Image
-            src={LogoPrimary}
-            alt="Company Logo"
-            priority={true}
-            sizes="100vw"
-            style={{
-              width: '150px',
-              height: 'auto',
-            }}
-          />
-        </Link>
         <ul>
           <li><Link href="/">home</Link></li>
           <li><Link href="/about">about</Link></li>

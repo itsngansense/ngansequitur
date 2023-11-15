@@ -1,3 +1,5 @@
+// default layout, equivalent to page
+
 import type { Metadata } from 'next'
 import '@/styles/global.scss'
 import HeaderNav from '@/components/HeaderNav'
@@ -20,9 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <HeaderNav />
-          <main>
-            {children}
-          </main>
+          <main>{children}</main>
         <Footer />
       </body>
     </html>

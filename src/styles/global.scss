@@ -1,4 +1,4 @@
-@import 'modern-normalize/modern-normalize.css';
+/* @import 'modern-normalize/modern-normalize.css'; */
 @import "variables";
 @import "mixins";
 
@@ -14,17 +14,20 @@ body {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
+  min-height: 100vh;
+  width: 100vw;
 }
 
 header, footer, main {
-  width: 100vw;
+  width: 100%;
   padding: $sp-lg;
 }
 
 header {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+
   nav {
-    display: inline-grid;
-    grid-template-columns: auto auto;
     width: 100%;
     vertical-align: middle;
     font-size: 1.5rem;
@@ -45,7 +48,7 @@ header {
 
       svg.svg-inline--fa {
         height: 1.125rem;
-        padding-left: $sp-xxs;
+        padding-inline-start: $sp-xxs;
       }
     }
   }
@@ -59,6 +62,7 @@ h1, h2, h3, h4, h5, h6 {
   @include headings;
 }
 
+/**
 h1 {
   font-size: 2.5rem;
   line-height: 3rem;
@@ -97,13 +101,15 @@ p {
   color: $color-text;
 }
 
+*/
+
 a {
   @include anchorStyles;
 }
 
 button {
   font-family: $text-primary;
-  font-size: 0.875rem;
+  /*font-size: 0.875rem;*/
   line-height: 1.25rem;
   text-align: center;
   text-transform: uppercase;
