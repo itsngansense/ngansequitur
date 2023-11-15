@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import LogoPrimary from '../../public/logo/ncs-logomark-primary.svg'
+import logoPrimary from '../../public/images/logo/ncs-logomark-primary.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 
@@ -9,14 +9,10 @@ export default function HeaderNav() {
     <header>
       <Link href="/" className="logo">
         <Image
-          src={LogoPrimary}
+          src={logoPrimary}
           alt="Company Logo"
-          priority={true}
-          sizes="100vw"
-          style={{
-            width: '150px',
-            height: 'auto',
-          }}
+          className="logo"
+          priority
         />
       </Link>
       <nav>

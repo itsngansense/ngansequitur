@@ -8,15 +8,13 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <>
-      <h1>heading 1</h1>
-      <h2>heading 2</h2>
-      <h3>Heading 3</h3>
-      <h4>heading 4</h4>
-      <h5>heading 5</h5>
-      <h6>heading 6</h6>
-      <p>This is a paragraph</p>
-      <Button> <Link href="/art">see artwork</Link></Button>
-      <Link href="/design">this is a link</Link>
+      <section>
+        <h1>ux designer, strategist, artist, and activist</h1>
+        <p>passionate about driving positive social impact through intersectional collaboration, systems-level thinking, and an endless amount of curiosity.</p>
+      </section>
+      <aside>
+        photo will go in here
+      </aside>
     </>
   )
 }
