@@ -1,18 +1,18 @@
 [
   {
-    "id": 1,
+    "id": "2022-jan-may",
     "title": "acc riverbat clinic",
     "cover": "/images/acc/acc-district-logo.png",
     "slug": "design/riverbat-health-clinic",
-    "excerpt": "tagline for first project",
-    "alt": "thumbnail of first project"
+    "excerpt": "insert tagline here",
+    "alt": "insert alt text here"
   },
   {
-    "id": 2,
+    "id": "2021-aug",
     "title": "care connext",
-    "cover": "/images/acc/acc-district-logo.png",
+    "cover": "/images/care-connext/care-connext-logo-color.svg",
     "slug": "design/care-connext",
-    "excerpt": "tagline for second project",
-    "alt": "thumbnail of first project"
+    "excerpt": "insert tagline here",
+    "alt": "insert alt text here"
   }
 ]
