@@ -10,7 +10,7 @@
   {
     "id": "2022-mar",
     "title": "health systems design",
-    "cover": "/images/care-connext/care-connext-logo-color.svg",
+    "cover": "",
     "slug": "design/adhd-gender-gap",
     "excerpt": "insert tagline here",
     "alt": "insert alt text here"
@@ -20,6 +20,14 @@
     "title": "care connext",
     "cover": "/images/care-connext/care-connext-logo-color.svg",
     "slug": "design/care-connext",
+    "excerpt": "insert tagline here",
+    "alt": "insert alt text here"
+  },
+  {
+    "id": "2016-2017",
+    "title": "hymnal",
+    "cover": "",
+    "slug": "design/hymnal",
     "excerpt": "insert tagline here",
     "alt": "insert alt text here"
   }
