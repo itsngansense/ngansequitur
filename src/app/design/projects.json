@@ -40,6 +40,30 @@
     "alt": "insert alt text here"
   },
   {
+    "id": "2018-feb-mar",
+    "title": "287(g) Protest",
+    "cover": "",
+    "slug": "design/lajc-287g",
+    "excerpt": "insert tagline here",
+    "alt": "insert alt text here"
+  },
+  {
+    "id": "2017-jun-nov",
+    "title": "Ten+99",
+    "cover": "",
+    "slug": "design/ten+99",
+    "excerpt": "insert tagline here",
+    "alt": "insert alt text here"
+  },
+  {
+    "id": "2017-apr-oct",
+    "title": "Aloe Self Care",
+    "cover": "",
+    "slug": "design/aloe",
+    "excerpt": "insert tagline here",
+    "alt": "insert alt text here"
+  },
+  {
     "id": "2016-2017",
     "title": "hymnal",
     "cover": "",
