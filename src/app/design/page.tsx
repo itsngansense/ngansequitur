@@ -1,7 +1,7 @@
 // design landing page
-import projects from './projects.json'
 import Link from 'next/link'
 import Image from 'next/image'
+import projects from './projects.json'
 
 export default function Design() {
   return (
@@ -15,7 +15,12 @@ export default function Design() {
         {projects.map((project) => {
           return(
             <figure className="project" key={project.id}>
-              <Image src={project.cover} alt={project.alt} />
+              <Image
+                src={project.cover}
+                alt={project.alt}
+                width={100}
+                height={100}
+                />
               <h2>{project.title}</h2>
               <p>{project.excerpt}</p>
               <Link href={project.slug}>View More</Link>

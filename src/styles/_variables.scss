@@ -30,8 +30,10 @@ $color-text: $purple-100;
 
 /* typography */
 
-$text-primary: 'forma-djr-text', sans-serif;
+$text-primary: var(--font-lexend-deca), sans-serif;
 $text-secondary: 'Warbler Variable Web', Georgia, serif;
+
+
 
 /* spacing */
 

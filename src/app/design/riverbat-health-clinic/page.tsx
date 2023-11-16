@@ -1,8 +1,8 @@
 // acc case study
 import Link from 'next/link'
 import Image from 'next/image'
-import accLogo from '../../../../public/images/design/riverbat-health-clinic/acc-district-logo.png'
-import designProcess from '../../../../public/images/design/riverbat-health-clinic/design-process.png'
+import accLogo from '../../../../public/images/acc/acc-district-logo.png'
+import designProcess from '../../../../public/images/acc/design-process.png'
 
 export default function caseStudy() {
   return (
@@ -35,7 +35,7 @@ export default function caseStudy() {
 
         <figure>
           <Image
-            src={designProcess}
+            src={ designProcess }
             alt="design process diagram"
           />
           <figcaption> Modified frameworks from <a href="https://dschool.stanford.edu">Hasso Plattner Institute of Design at Stanford (d.school)</a> and <a href="https://www.interaction-design.org/literature/article/stage-1-in-the-design-thinking-process-empathise-with-your-users">Interaction Design Foundation</a>.
@@ -197,9 +197,8 @@ export default function caseStudy() {
         <section>
           <span>client</span>
           <Image
-            src={accLogo}
+            src={ accLogo }
             alt="ACC District Logo"
-            width={100}
           />
         </section>
         <section>
