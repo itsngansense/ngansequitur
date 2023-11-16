@@ -1,8 +1,8 @@
 // acc case study
 import Link from 'next/link'
 import Image from 'next/image'
-import { faCaretRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCaretRight } from '@fortawesome/free-solid-svg-icons'
 
 export default function caseStudy() {
   return (

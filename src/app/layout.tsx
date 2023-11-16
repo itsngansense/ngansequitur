@@ -1,4 +1,4 @@
-// default layout, equivalent to page
+// default layout, equivalent to page router _app.tsx
 
 import type { Metadata } from 'next'
 import HeaderNav from '@/components/HeaderNav'
