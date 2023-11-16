@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "acc riverbat clinic",
-    "cover": "https://freight.cargo.site/w/1500/q/75/i/5c67a0440bdd2c0ba194f84e800f9197fdbaf7f8f803b70dfc45f60956e724e0/eastview.png",
+    "cover": "/public/images/design/riverbat-health-clinic/design-process.png",
     "slug": "design/riverbat-health-clinic",
     "excerpt": "tagline for first project",
     "alt": "thumbnail of first project"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "title": "care connext",
-    "cover": "https://freight.cargo.site/w/1500/q/75/i/2ce1292c6635d44d54775546f1e3a1695a8ea5c6a271306986fb68c8c6e4ee1c/Screen-Shot-2022-09-27-at-4.47.PMCDT.png",
+    "cover": "/public/images/design/riverbat-health-clinic/design-process.png",
     "slug": "design/care-connext",
     "excerpt": "tagline for second project",
     "alt": "thumbnail of first project"
