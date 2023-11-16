@@ -1,8 +1,8 @@
 // acc case study
 import Link from 'next/link'
 import Image from 'next/image'
-import accLogo from '../../../../public/images/acc/acc-district-logo.png'
-import designProcess from '../../../../public/images/acc/design-process.png'
+import accLogo from '/public/images/acc/acc-district-logo.png'
+import designProcess from '/public/images/acc/design-process.png'
 
 export default function caseStudy() {
   return (

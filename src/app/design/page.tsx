@@ -18,9 +18,10 @@ export default function Design() {
               <Image
                 src={project.cover}
                 alt={project.alt}
-                width={100}
-                height={100}
-                />
+                width={0}
+                height={0}
+                sizes="100vw"
+              />
               <h2>{project.title}</h2>
               <p>{project.excerpt}</p>
               <Link href={project.slug}>View More</Link>
