@@ -49,6 +49,14 @@
   },
   {
     "id": "2017-something",
+    "title": "Zinn Education Project",
+    "cover": "",
+    "slug": "design/zinn-edu",
+    "excerpt": "insert tagline here",
+    "alt": "insert alt text here"
+  },
+  {
+    "id": "2017-something",
     "title": "NT Style Tiles",
     "cover": "",
     "slug": "design/nt-style-tiles",
@@ -84,6 +92,14 @@
     "title": "hymnal",
     "cover": "",
     "slug": "design/hymnal",
+    "excerpt": "insert tagline here",
+    "alt": "insert alt text here"
+  },
+  {
+    "id": "2012-2018",
+    "title": "advertisements",
+    "cover": "",
+    "slug": "design/ad-campaigns",
     "excerpt": "insert tagline here",
     "alt": "insert alt text here"
   }
