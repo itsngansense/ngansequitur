@@ -11,12 +11,18 @@ export default function caseStudy() {
       </header>
       <section className="project-summary">
         <h2>Overview</h2>
+        <p>The Seller Resource Center is a a one-stop resources shop for our sales and marketing departments.</p>
         <p>I helped redesign and add new features to Insights (formerly known as the Seller Resource Center), Vox Media&apos;s data analytics platform. My team established modular design patterns to help assess our brand partner&apos;s performance.</p>
       </section>
       <section className="project-details">
         <h2>Project Details</h2>
         <p>One of the main challenges of the project was introducing design patterns that would work across a variety of campaigns and highlight the most relevant information from the data story. </p>
         <p>We used a blend of data visualization and natural language summaries as well as reused elements from Hymnal to tie the two products together.</p>
+        <ul>
+          <li>search and toggle</li>
+          <li>filtering capabilities</li>
+          <li>card organization</li>
+        </ul>
       </section>
 
       <aside>

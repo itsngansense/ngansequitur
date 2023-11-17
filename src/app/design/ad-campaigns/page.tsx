@@ -12,10 +12,11 @@ export default function caseStudy() {
       <section className="project-summary">
         <h2>Overview</h2>
         <p>Automattic: Evergreen Display Ads for WordPress Redesign</p>
-        <p>Vox Media: Design & Development of In-House Custom Ads</p>
+        <p>Vox Media: Design & Development of In-House Custom Ads. Selected works from various advertising campaigns during my time on the Revenue Executions and Branded Content Team at Vox Media.</p>
       </section>
       <section className="project-details">
         <h2>Project Details</h2>
+        <p>take a look at images from github pages website files</p>
       </section>
 
       <aside>
