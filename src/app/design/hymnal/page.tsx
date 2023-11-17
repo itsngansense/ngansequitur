@@ -17,6 +17,10 @@ export default function caseStudy() {
       </section>
       <section className="project-details">
         <h2>Project Details</h2>
+        <p>favoriting ads capabilities</p>
+        <p>spit screen and scrolling experience</p>
+        <p>pattern library</p>
+        <p>Before working on the Ad Platforms team, I was an avid Hymnal user as a developer on the Revenue Executions Team. That gave me an advantage when I started designing and developing for Hymnal and could really speak for its users and their day to day process. My team members and I developed a reusable pattern library for the platform as well.</p>
         <p><strong>EDIT THIS PLEASE:</strong> Ngan and Matt have both worked on Vox Media&apos;s in-house advertising design team. That makes them uniquely suited to better understand what that team needs to execute Vox Media&apos;s vision of beautiful advertising on the web. Here they are working hard at improving the UI of our advertising platform, which is a tricky task since it is used by people who design but know little code, people who code and know a little design, and people who know enough of both design and code just to get by when launching campaigns.</p>
         <h3>Press</h3>
         <p>
