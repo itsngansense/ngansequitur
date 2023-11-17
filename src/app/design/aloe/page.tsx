@@ -18,6 +18,7 @@ export default function caseStudy() {
       </section>
       <section className="project-details">
         <h2>Project Details</h2>
+        <p>Design, development, content strategy and consultation for aloe.club, a self-care community.</p>
       </section>
 
       <aside>

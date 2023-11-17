@@ -16,6 +16,7 @@ export default function caseStudy() {
       </section>
       <section className="project-details">
         <h2>Project Details</h2>
+        <p>Designed posters and buttons for Legal Aid Justice Center to protest the Culpeper County Sheriff&apos;s Office&apos;s participation with U.S. Immigration and Customs Enforcement under 287(g).</p>
         <h3>Press</h3>
         <p>
           <cite>
