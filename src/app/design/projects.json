@@ -48,6 +48,14 @@
     "alt": "insert alt text here"
   },
   {
+    "id": "2017-something",
+    "title": "NT Style Tiles",
+    "cover": "",
+    "slug": "design/nt-style-tiles",
+    "excerpt": "insert tagline here",
+    "alt": "insert alt text here"
+  },
+  {
     "id": "2017-jun-nov",
     "title": "Ten+99",
     "cover": "",
@@ -64,7 +72,15 @@
     "alt": "insert alt text here"
   },
   {
-    "id": "2016-2017",
+    "id": "2016-sep-2017-jan",
+    "title": "insights src",
+    "cover": "",
+    "slug": "design/src-insights",
+    "excerpt": "insert tagline here",
+    "alt": "insert alt text here"
+  },
+  {
+    "id": "2016-apr-sep",
     "title": "hymnal",
     "cover": "",
     "slug": "design/hymnal",

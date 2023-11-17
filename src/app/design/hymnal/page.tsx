@@ -33,8 +33,8 @@ export default function caseStudy() {
       <aside>
         <section>
           <span>timeline</span>
-          <p>2017 and earlier, a couple years?</p>
-          <p>ADD DURATION HERE</p>
+          <p>april to september 2016</p>
+          <p>6 months</p>
         </section>
         <section>
           <span>company</span>
